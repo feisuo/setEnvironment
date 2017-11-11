@@ -4,8 +4,8 @@ curl -v -j -k -L -H "Cookie: oraclelicense=accept-securebackup-cookie" http://do
 
 tar xzvf jdk.tar.gz
 sudo mkdir /usr/local/java
-sudo mv jdk1.8.0_45 /usr/local/java/
-sudo ln -s /usr/local/java/jdk1.8.0_45 /usr/local/java/jdk
+sudo mv jdk1.8.0_151 /usr/local/java/
+sudo ln -s /usr/local/java/jdk1.8.0_151 /usr/local/java/jdk
 
 sudo vi /etc/profile.d/java.sh
 export PATH="$PATH:/usr/local/java/jdk/bin"
